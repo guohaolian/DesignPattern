@@ -1,0 +1,34 @@
+<configuration>
+    <project>leave</project>
+    <rules>
+        <rule>
+            <role>部门主管</role>
+            <maxDays>3</maxDays>
+            <users>
+                <user>张三</user>
+                <user>李四</user>
+            </users>
+        </rule>
+        <rule>
+            <role>人事经理</role>
+            <maxDays>7</maxDays>
+            <users>
+                <user>王五</user>
+            </users>
+        </rule>
+        <rule>
+            <role>总经理</role>
+            <maxDays>30</maxDays>
+            <users>
+                <user>赵六</user>
+            </users>
+        </rule>
+        <rule>
+            <role>董事长</role>
+            <maxDays>-1</maxDays>
+            <users>
+                <user>孙七</user>
+            </users>
+        </rule>
+    </rules>
+</configuration>
