@@ -52,7 +52,6 @@ class DynamicApprover extends Approver {
         return users.get(random.nextInt(users.size()));
     }
 }
-
 // Ö÷Àà
 public class version06 {
     public static void main(String[] args) throws Exception {
