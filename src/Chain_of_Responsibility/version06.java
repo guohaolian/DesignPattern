@@ -52,7 +52,7 @@ class DynamicApprover extends Approver {
         return users.get(random.nextInt(users.size()));
     }
 }
-// 主类
+// 主要类
 public class version06 {
     public static void main(String[] args) throws Exception {
         // 加载配置文件
