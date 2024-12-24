@@ -15,7 +15,7 @@ public class XMLUtilPen
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;							
-			doc = builder.parse(new File("BridgeconfigPen.xml")); 
+			doc = builder.parse(new File("src/bridge/BridgeconfigPen.xml"));
 			NodeList nl=null;
 			Node classNode=null;
 			String cName=null;
