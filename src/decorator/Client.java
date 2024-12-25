@@ -12,5 +12,10 @@ public class Client
 		Airplane bumblebee=new Airplane(camaro);
 		bumblebee.move();
 		bumblebee.fly();
+		System.out.println("-----------------------------");
+
+		Robot robot=new Robot(camaro);
+		robot.move();
+		robot.say();
 	}
 }
