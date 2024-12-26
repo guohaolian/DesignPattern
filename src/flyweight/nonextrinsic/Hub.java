@@ -9,10 +9,7 @@ public class Hub implements NetworkDevice
 		this.type=type;
 	}
 	
-	public String getType()
-	{
-		return this.type;
-	} 
+
 	
 	public void use()
 	{
