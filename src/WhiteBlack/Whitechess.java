@@ -5,6 +5,9 @@ public class Whitechess implements AbstractChessman {
     private int x;
     private int y;
 
+    public Whitechess() {
+        System.out.println("--WhiteChessman Construction Exec!!!");
+    }
     @Override
     public void setchess(String chess) {
         this.chess = chess;
@@ -14,6 +17,7 @@ public class Whitechess implements AbstractChessman {
     public void point(int x, int y) {
         this.x = x;
         this.y = y;
+        show();
     }
 
     @Override

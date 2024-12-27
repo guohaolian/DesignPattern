@@ -8,6 +8,12 @@ public class ChessFactory {
     private static ChessFactory instance = null;
 
     private ChessFactory() {
+        AbstractChessman chessman1 = new Blackchess();
+        chessman1.setchess("BlackChess");
+        chessList.add(chessman1);
+        AbstractChessman chessman2 = new Whitechess();
+        chessman2.setchess("WhiteChess");
+        chessList.add(chessman2);
     }
 
     public static ChessFactory getInstance() {
@@ -17,21 +23,11 @@ public class ChessFactory {
         return instance;
     }
 
-    public void createChessman(String chessmanName) {
-        AbstractChessman chessman1 = new Blackchess();
-        chessman1.setchess("BlackChess");
-        chessList.add(chessman1);
-        AbstractChessman chessman2 = new Whitechess();
-        chessman2.setchess("WhiteChess");
-        chessList.add(chessman2);
-
-    }
-
     public AbstractChessman getChess(String chessman){
-        if(chessman.equals("BlackChess")){
+        if(chessman.equals("Black")){
             return (AbstractChessman)chessList.get(0);
         }
-        else if(chessman.equals("WhiteChess")){
+        else if(chessman.equals("White")){
             return (AbstractChessman)chessList.get(1);
         }
         return null;
