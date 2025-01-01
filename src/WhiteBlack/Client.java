@@ -1,7 +1,7 @@
 package WhiteBlack;
 
 import java.util.Random;
-
+//ÏíÔªÄ£Ê½
 public class Client {
     public static void main(String[] args) {
         AbstractChessman chess=null;

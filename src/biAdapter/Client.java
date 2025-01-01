@@ -1,5 +1,5 @@
 package biAdapter;
-
+//Ë«ÏòÊÊÅäÆ÷
 public class Client {
     public static void main(String[] args) {
         Adapter adapter = new Adapter();

@@ -1,5 +1,5 @@
 package shortcutproxy;
-
+//代理模式
 //客户端测试类
 public class Client {
     public static void main(String[] args) {

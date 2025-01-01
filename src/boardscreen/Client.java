@@ -1,5 +1,5 @@
 package boardscreen;
-
+//命令模式
 public class Client {
     public static void main(String[] args) {
         BoardScreen screen = new BoardScreen();//接收者

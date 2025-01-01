@@ -1,5 +1,5 @@
 package studentiterator;
-
+//µü´úÆ÷Ä£Ê½
 public class Client {
     public static void main(String[] args) {
         Class cla=new Class();

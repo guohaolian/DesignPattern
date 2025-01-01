@@ -1,5 +1,5 @@
 package AntiVirus;
-
+//组合模式
 public class Client {
     public static void main(String args[]) {
         //针对抽象构件编程

@@ -1,5 +1,5 @@
 package textstyle;
-
+//ÏíÔªÄ£Ê½
 public class Client {
     public static void main(String[] args) {
         BaseDoc doc1,doc2,doc3;

@@ -1,5 +1,5 @@
 package bookmanager;
-
+//в╟йндёй╫
 public class Client {
     public static void main(String[] args) {
         iBook book;
