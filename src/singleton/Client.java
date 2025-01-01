@@ -1,5 +1,5 @@
 package singleton;
-
+//µ¥ÀıÄ£Ê½
 public class Client
 {
 	public static void main(String a[])

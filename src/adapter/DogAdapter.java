@@ -1,10 +1,14 @@
 package adapter;
 
-public class DogAdapter extends Dog implements Robot
-{
+public class DogAdapter extends Dog implements Robot {
+//	private Bird bird;
+//	public DogAdapter(){
+//		bird = new Bird();
+//	}
 	public void cry()
 	{
 		System.out.print("»úÆ÷ÈËÄ£·Â£º");
+//		bird.tweedle();
 		super.wang();
 	}
 	

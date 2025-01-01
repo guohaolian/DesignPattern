@@ -1,5 +1,5 @@
 package adapter;
-
+//ÊÊÅäÆ÷Ä£Ê½
 public class Client
 {
 	public static void main(String args[])

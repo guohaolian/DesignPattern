@@ -1,5 +1,5 @@
 package prototype.deep;
-
+//原型模式-深度克隆
 public class Client
 {
 	public static void main(String a[])

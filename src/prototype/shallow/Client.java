@@ -1,5 +1,5 @@
 package prototype.shallow;
-
+//原型模式-浅克隆
 public class Client
 {
 	public static void main(String a[])
