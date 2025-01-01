@@ -1,5 +1,5 @@
 package visitor;
-
+//访问者模式
 public class Client
 {
 	public static void main(String a[])

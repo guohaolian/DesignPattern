@@ -1,5 +1,5 @@
 package cor;
-
+//职责链模式
 public class Client
 {
 	public static void main(String args[])

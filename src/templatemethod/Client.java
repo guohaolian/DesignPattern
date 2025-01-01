@@ -1,5 +1,5 @@
 package templatemethod;
-
+//模板方法模式-客户端
 public class Client
 {
 	public static void main(String a[])

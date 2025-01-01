@@ -1,5 +1,5 @@
 package strategy;
-
+//策略模式-客户端
 public class Client
 {
 	public static void main(String args[])

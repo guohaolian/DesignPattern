@@ -1,5 +1,5 @@
 package bridge;
-
+//ге╫сдёй╫
 public class Client
 {
 	public static void main(String a[])

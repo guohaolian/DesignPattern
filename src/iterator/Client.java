@@ -1,5 +1,5 @@
 package iterator;
-
+//µü´úÆ÷Ä£Ê½
 public class Client
 {
 	public static void display(Television tv)

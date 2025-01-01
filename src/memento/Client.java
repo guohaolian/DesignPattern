@@ -1,5 +1,5 @@
 package memento;
-
+//备忘录模式：保存一个对象的状态，以便在适当的时候恢复对象
 import memento.test.Caretaker;
 import memento.test.UserInfoDTO;
 

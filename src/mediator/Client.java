@@ -1,5 +1,5 @@
 package mediator;
-
+//中介者模式
 public class Client
 {
 	public static void main(String args[])
