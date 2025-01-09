@@ -1,7 +1,7 @@
 package facade;
 
 public class GeneralSwitchFacade {
-	private Light lights[]=new Light[4];
+	private Light[] lights=new Light[4];
 	private Fan fan;
 	private AirConditioner ac;
 	private Television tv;
